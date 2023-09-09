@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main-container {
+  /* background-color: sandybrown; */
+  background-image: linear-gradient(to bottom right, yellow, rgb(230, 109, 4));
+  height: 99vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  box-shadow: 0 2px 5px 0 rgba(82, 74, 74, 0.16),
+    0 2px 5px 0 rgba(51, 44, 44, 0.23);
+  height: 80vh;
+  width: 70vw;
+  border-radius: 10px;
+  display: flex;
+}
+
+.header-U {
+  text-align: right;
+  padding: 10px;
+}
+
+.child1 {
+  background-image: linear-gradient(to bottom right, salmon, yellow);
+  height: 80vh;
+  width: 35vw;
+  border-radius: 10px 0 0 10px;
+}
+.child2 {
+  background-color: #fff;
+  height: 80vh;
+  width: 35vw;
+  border-radius: 0 10px 10px 0;
+}
+.main {
+  /* padding: 60px; */
+  margin: 4em;
+}
+.cont {
+  padding-top: 20px;
+  font-size: 15px;
+  color: gray;
+}
+.form {
+  padding-top: 10px;
+}
+.email-U {
+  background-color: rgb(232, 232, 232);
+  color: gray;
+  margin: 10px 0;
+  height: 5vh;
+  width: 20vw;
+  display: flex;
+  padding: 0 5px;
+  border-radius: 3px;
+
+  align-items: center;
+}
+.pass-U {
+  background-color: rgb(232, 232, 232);
+  color: gray;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 10px 0;
+  height: 5vh;
+  width: 20vw;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+.email-1 {
+  padding: 5px;
+  margin-left: 4px;
+  background-color: rgb(232, 232, 232);
+  border: none;
+  width: 9em;
+}
+.pass-1 {
+  margin-left: 4px;
+  padding: 5px;
+  border: none;
+  background-color: rgb(232, 232, 232);
+  width: 9em;
+}
+.login_U {
+  height: 20vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.login_id {
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: orangered;
+
+  color: white;
+  border: none;
+}
+
+.footer-U {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.creat-U {
+  color: salmon;
+  text-decoration: none;
+}

@@ -1,0 +1,106 @@
+.head-L {
+  display: flex;
+  padding: 50px;
+
+  align-items: center;
+}
+.dulg {
+  color: white;
+  margin-left: 3px;
+}
+.eat-icon {
+  height: 31px;
+  width: 31px;
+  /* border: 1px solid; */
+  background-color: white;
+}
+
+.main_l {
+  padding: 10px 50px;
+}
+.join {
+  color: rgb(239, 235, 11);
+}
+.cont_L {
+  color: white;
+  margin: 10px 0;
+}
+.lots_icons {
+  display: flex;
+  flex-direction: column;
+
+  /* color: orange; */
+  /* justify-content: space-around; */
+}
+.tic_1 {
+  display: flex;
+  margin: 10px 0;
+}
+.tic_2 {
+  display: flex;
+  margin: 10px 0;
+}
+
+.tic_3 {
+  display: flex;
+  margin: 10px 0;
+}
+.lots_icons p {
+  color: white;
+  margin-left: 10px;
+}
+
+#tic_L1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: orangered; */
+  /* color: orangered; */
+  background-color: rgb(246, 245, 176);
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+}
+.tic_1 p {
+  color: rgb(246, 245, 176);
+}
+.tic_2 p {
+  color: rgb(246, 245, 176);
+}
+.tic_3 p {
+  color: rgb(246, 245, 176);
+}
+#tic_L2 {
+  background-color: rgb(246, 245, 176);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+}
+#tic_L3 {
+  background-color: rgb(246, 245, 176);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+}
+
+.button_force {
+  height: 40px;
+  width: 200px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  justify-content: space-between;
+  color: orangered;
+  border: none;
+  margin-top: 40px;
+}
